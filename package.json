@@ -1,0 +1,17 @@
+{
+  "name": "reservenroam",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace @reservenroam/api\" \"npm run dev --workspace @reservenroam/web\"",
+    "build": "npm run build --workspace @reservenroam/api && npm run build --workspace @reservenroam/web",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
