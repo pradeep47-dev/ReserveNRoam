@@ -25,6 +25,10 @@ pnpm-debug.log*
 # Test and coverage
 coverage/
 
+# Database
+*.db
+*.db-journal
+
 # OS and editor
 .DS_Store
 Thumbs.db
