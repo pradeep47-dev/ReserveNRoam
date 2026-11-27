@@ -4,6 +4,7 @@ import express from "express";
 
 const app = express();
 const port = Number(process.env.PORT ?? 3001);
+const host = process.env.HOST ?? "0.0.0.0";
 const allowedOrigin = process.env.CORS_ORIGIN ?? "http://localhost:5173";
 
 app.use(cors({ origin: allowedOrigin }));
@@ -25,6 +26,6 @@ app.get("/api", (_request, response) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`ReserveNRoam API listening on http://localhost:${port}`);
+app.listen(port, host, () => {
+  console.log(`ReserveNRoam API listening on http://${host}:${port}`);
 });

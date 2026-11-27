@@ -1,0 +1,11 @@
+.git
+.github
+.cursor
+.kilo
+node_modules
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+apps/web/src
+*.md

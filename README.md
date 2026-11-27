@@ -2,6 +2,8 @@
 
 Discover and reserve campsites, parks, recreation areas, cabins, and other outdoor stays.
 
+ReserveNRoam is an outdoor discovery and reservation platform that helps users find, compare, and book available campsites, provincial and national parks, recreation areas, cabins, and other outdoor accommodations. Users can search based on location, dates, budget, accommodation type, amenities, and other preferences, making it easier to discover available spots and plan outdoor getaways. The platform aims to simplify fragmented reservation experiences by bringing outdoor destinations and booking options together in one place.
+
 ## Repository structure
 
 ```text
